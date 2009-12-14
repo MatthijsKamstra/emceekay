@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Default title</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- <link rel="icon" href="animated_favicon.gif" type="image/gif" > -->
+		
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		
+		<!-- scripts -->
+		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>-->
+		<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+		<script type="text/javascript" src="js/swffit.js"></script>
+		<script type="text/javascript" src="js/swfaddress.js"></script>
+		
+		<!-- swfobject, swffit -->
+		<!-- view swfobject generator for more: http://www.bobbyvandersluis.com/swfobject/generator/index.html -->
+		<script type="text/javascript">
+			var flashvars = {};
+				flashvars.abc = swfobject.getQueryParamValue("abc");
+				flashvars.foo = "bar";
+				flashvars.clickTag = "http://www.makesomenoise.nl";
+				flashvars.debug = "false";			// default false, set with 'true' or '1' the stats show when you watch it in the browser
+				flashvars.swf = "main.swf"; 		// default 'main.swf'       
+				flashvars.noCache = "false"; 		// default false, set with 'true' or '1' random string will be appended to swf url to prevent caching
+				flashvars.waitForStartup = "false"; // default false, if 'true' or '1' will cause preloader to pause at 100% and wait for PreloadEvent.STARTUP_COMPLETE.
+			var params = {};
+				params.menu = "false";
+				params.bgcolor = "FFFFFF";
+				params.base = ""; <!-- Specifies the base directory or URL used to resolve all relative path statements in the Flash Player movie. This attribute is helpful when your Flash Player movies are kept in a different directory from your other files. -->
+				params.allowfullscreen = "true";
+				params.allowscriptaccess = "always";
+			var attributes = {id:'mainSwf', name:'mainSwf'}; // give an id to the flash object for swfmacmousewheel and swffit
+			swfobject.embedSWF("preloader.swf", "myAlternativeContent", "100%", "100%", "9.0.115", "js/swfobject/expressInstall.swf", flashvars, params, attributes);
+			swffit.fit("mainSwf", 1000, 650); <!-- minimal size .swf -->
+		</script>
+		
+		<!-- default style -->
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<!-- custom style -->
+		<style type="text/css" media="screen">
+		/* place style here */
+		</style>
+		
+	</head>
+	<body>
+		<div id="myAlternativeContent">
+			<div id="noflash">
+				<h2>Om deze site te zien heb je de juiste Flash Player nodig</h2>
+				<p>Je hebt niet de juiste Flash Plugin geinstalleerd of je hebt javascript uitgezet in je browser.<br />
+				<a href="http://www.adobe.com/go/getflashplayer" title="Download latest Flash Plugin">Klik hier om de laatste versie van de Flash Player te downloaden</a>. <br /><br />
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+				</a>
+				</p>
+			</div>
+		</div>
+
+		<!-- start :: google analytics -->
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try{
+		var pageTracker = _gat._getTracker("UA-xxxxxx-x");
+		pageTracker._trackPageview();
+		} catch(err) {}
+		</script>
+		<!-- end :: google analytics -->
+		
+		
+	</body>
+</html>

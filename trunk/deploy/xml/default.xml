@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  escape character
+  < __ &lt;
+  > __ &gt;
+  & __ &amp;
+  ' __ &apos;
+  " __ &quot;
+
+Gekke tekens tekst:
+éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî
+(als bovenstaande tekst veranderd in vierkantjes is deze file geen UTF-8 meer!! >> en dat moet het wel zijn!!)
+
+  tab (\t) __ &#09;
+  line feed (\n) __ &#10;
+  carriage return (\r) __ &#13;
+
+  <![CDATA[ ... ]]>
+-->
+<document>
+	<chapters>
+		<item>
+			<title>12 maanden Bovag-garantie</title>
+			<body>Hong Kong Phooey, number one super guy. Hong Kong Phooey, quicker than the human eye. He's got style, a groovy style, and a car that just won't stop. When the going gets tough, he's really rough, with a Hong Kong Phooey chop (Hi-Ya!). Hong Kong Phooey, number one super guy. Hong Kong Phooey, quicker than the human eye. Hong Kong Phooey, he's fan-riffic!</body>
+		</item>
+		<item>
+			<title>gegarandeerde kilometerstand (NAP)</title>
+			<body>80 days around the world, we'll find a pot of gold just sitting where the rainbow's ending. Time - we'll fight against the time, and we'll fly on the white wings of the wind. 80 days around the world, no we won't say a word before the ship is really back. Round, round, all around the world. Round, all around the world. Round, all around the world. Round, all around the world.</body>
+		</item>
+		<item>
+			<title>24-uurs mobiliteitsgarantie</title>
+			<body>Knight Rider, a shadowy flight into the dangerous world of a man who does not exist. Michael Knight, a young loner on a crusade to champion the cause of the innocent, the helpless in a world of criminals who operate above the law.</body>
+		</item>
+		<item>
+			<title>14 dagen of 1.000 km omruilgarantie</title>
+			<body>Top Cat! The most effectual Top Cat! Who's intellectual close friends get to call him T.C., providing it's with dignity. Top Cat! The indisputable leader of the gang. He's the boss, he's a pip, he's the championship. He's the most tip top, Top Cat.</body>
+		</item>
+		<item>
+			<title>multi-point kwaliteitscontrole</title>
+			<body>Thunder, thunder, thundercats, Ho! Thundercats are on the move, Thundercats are loose. Feel the magic, hear the roar, Thundercats are loose. Thunder, thunder, thunder, Thundercats! Thunder, thunder, thunder, Thundercats! Thunder, thunder, thunder, Thundercats! Thunder, thunder, thunder, Thundercats! Thundercats!</body>
+		</item>
+		<item>
+			<title>servicebeurt voor aflevering</title>
+			<body>Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.</body>
+		</item>
+		<item>
+			<title>APK-gekeurd</title>
+			<body>Mutley, you snickering, floppy eared hound. When courage is needed, you're never around. Those medals you wear on your moth-eaten chest should be there for bungling at which you are best. So, stop that pigeon, stop that pigeon, stop that pigeon, stop that pigeon, stop that pigeon, stop that pigeon, stop that pigeon. Howwww! Nab him, jab him, tab him, grab him, stop that pigeon now.</body>
+		</item>
+	</chapters>
+
+	<misc>
+		<debug>éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî</debug>
+		<debug><![CDATA[wrong: < > & ' "]]></debug>
+		<debug>good: &lt; &gt; &amp; &apos; &quot;</debug>
+		<debug><![CDATA[Test dit dan maar eens <b>bold</b>:  bold of niet, <a href="#">een linkje</a>]]></debug>
+		<debug>Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.</debug>
+	</misc>
+</document>
