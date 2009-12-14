@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  escape character
+  < __ &lt;
+  > __ &gt;
+  & __ &amp;
+  ' __ &apos;
+  " __ &quot;
+
+Gekke tekens tekst:
+éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî
+(als bovenstaande tekst veranderd in vierkantjes is deze file geen UTF-8 meer!! >> en dat moet het wel zijn!!)
+
+  tab (\t) __ &#09;
+  line feed (\n) __ &#10;
+  carriage return (\r) __ &#13;
+
+  <![CDATA[ ... ]]>
+-->
+<document>
+	<node1>éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî</node1>
+	<node2><![CDATA[wrong: < > & ' " but posible with CDATA]]></node2>
+	<node3>good: &lt; &gt; &amp; &apos; &quot;</node3>
+	<node4><![CDATA[TestData1: Test dit dan maar eens <b>bold</b>:  bold of niet, <a href="#">een linkje</a>]]></node4>
+	<node5>TestData2: Test dit dan maar eens &lt;b>bold&lt;/b>:  bold of niet, &lt;a href=&quot;#&quot;>een linkje&lt;/a></node5>
+	<node6 id="first" time="010203">Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.</node6>
+	<group>
+		<node>éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî</node>
+		<node><![CDATA[wrong: < > & ' " but posible with CDATA]]></node>
+		<node>good: &lt; &gt; &amp; &apos; &quot;</node>
+		<node><![CDATA[TestData1: Test dit dan maar eens <b>bold</b>:  bold of niet, <a href="#">een linkje</a>]]></node>
+		<node id="first" time="010203">TestData2: Test dit dan maar eens &lt;b>bold&lt;/b>:  bold of niet, &lt;a href=&quot;#&quot;>een linkje&lt;/a></node>
+		<node id="oeps">Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.</node>
+	</group>
+</document>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  escape character
+  < __ &lt;
+  > __ &gt;
+  & __ &amp;
+  ' __ &apos;
+  " __ &quot;
+
+Gekke tekens tekst:
+éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî
+(als bovenstaande tekst veranderd in vierkantjes is deze file geen UTF-8 meer!! >> en dat moet het wel zijn!!)
+
+  tab (\t) __ &#09;
+  line feed (\n) __ &#10;
+  carriage return (\r) __ &#13;
+
+  <![CDATA[ ... ]]>
+-->
+<document>
+	<debug>éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî</debug>
+	<debug>wrong: < > & ' "</debug>
+	<debug>good: &lt; &gt; &amp; &apos; &quot;</debug>
+	<debug><![CDATA[Test dit dan maar eens <b>bold</b>:  bold of niet, <a href="#">een linkje</a>]]></debug>
+	<debug>Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.</debug>
+</document>
