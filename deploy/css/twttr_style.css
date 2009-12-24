@@ -1,0 +1,44 @@
+/**
+ * twttr SWF Application Styles 
+ *
+ * @example 	"<span class='date'>"
+ * @see			http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/TextField.html#htmlText
+ * @see			http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/StyleSheet.html
+  */
+p, .main {
+	font-family: "Verdana,Trebuchet MS, Arial,  sans";
+	font-size: 10pt;
+}
+
+img {
+	display:block;
+}
+
+.date {
+	color: #C0C0C0;
+	font-style:italic;
+}
+
+a,a:link {
+	color: #808080;
+	text-decoration: underline;
+}
+
+a:active,a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+a.alt,a.alt:link {
+	color: #949494;
+	text-decoration: none;
+}
+
+a.alt:active,a.alt:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+strong {
+	color: #FFFFFF;
+}
