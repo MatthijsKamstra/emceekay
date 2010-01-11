@@ -16,9 +16,9 @@
 	import flash.utils.Timer;
 	import nl.emceekay.twttr.data.enum.Emoticons;
 	import nl.emceekay.twttr.view.Balloon;
-	import nl.noiselibrary.events.DynamicEvent;
-	import nl.noiselibrary.utils.Dump;
-	import nl.noiselibrary.utils.Link;
+	import nl.emceekaylibrary.events.DynamicEvent;
+	import nl.emceekaylibrary.utils.Dump;
+	import nl.emceekaylibrary.utils.Link;
 	/**
 	 * // nl.emceekay.twttr.TwttrMain
 	 * ...

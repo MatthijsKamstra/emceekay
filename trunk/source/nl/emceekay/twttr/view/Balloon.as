@@ -6,9 +6,9 @@
 	import flash.text.StyleSheet;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
-	import nl.noiselibrary.core.LocalController;
-	import nl.noiselibrary.events.DynamicEvent;
-	import nl.noiselibrary.utils.Dump;
+	import nl.emceekaylibrary.core.LocalController;
+	import nl.emceekaylibrary.events.DynamicEvent;
+	import nl.emceekaylibrary.utils.Dump;
 	
 	/**
 	 * // nl.emceekay.twttr.view.Balloon
