@@ -46,7 +46,7 @@
 		
 		private function onClickHandler(e:MouseEvent):void 
 		{
-			trace( "Balloon.onClickHandler > e : " + e );
+			//trace( "Balloon.onClickHandler > e : " + e );
 			
 			var slide:int = id;
 			
