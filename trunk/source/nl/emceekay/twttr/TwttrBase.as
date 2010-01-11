@@ -4,8 +4,8 @@
 	import flash.events.Event;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
+	import flash.system.Capabilities;
 	import flash.text.TextField;
-	import nl.emceekay.twttr.data.enum.Emoticons;
 	/**
 	 * // nl.emceekay.twttr.TwttrBase
 	 * ...
@@ -16,13 +16,22 @@
 		//default: http://twitter.com/matthijskamstra
 		private var _url:String = "http://twitter.com/statuses/user_timeline/27657030.rss"; 
 		
+		// proxy
+		private var _proxy:String = "http://www.matthijskamstra.nl/proxy/xml_proxy.php"
+		
 		private var _feed:XML;
 		private var _converted_feed:XML;
+		
+		// check for browser
+		private var IS_BROWSER:Boolean = false;
 		
 		
 		
 		// constructor
-		public function TwttrBase() { trace( "+ TwttrBase.TwttrBase" ); }
+		public function TwttrBase() 
+		{ 
+			IS_BROWSER 	= (Capabilities.playerType == "ActiveX" || Capabilities.playerType == "PlugIn");
+		}
 		
 		//////////////////////////////////////// loading rss / show rss ////////////////////////////////////////
 		
@@ -32,9 +41,12 @@
 		 */
 		public function getFeed (inURL:String) : void 
 		{
+			var url:String = inURL;
+			if (IS_BROWSER) url = _proxy + "?url=" + inURL;
+			
 			var loader:URLLoader = new URLLoader();
 			loader.addEventListener(Event.COMPLETE, onFeedHandler);
-			loader.load(new URLRequest(inURL));
+			loader.load(new URLRequest(url));
 		}
 
 		private function onFeedHandler (e:Event):void 
@@ -54,8 +66,6 @@
 				//_title 		= convertTweet(_title);
 				//_description 	= convertTweet(_description);
 			}
-			
-			
 			init();
 		}
 		
