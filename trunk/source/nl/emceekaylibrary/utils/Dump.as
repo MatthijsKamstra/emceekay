@@ -23,10 +23,10 @@ package nl.emceekaylibrary.utils
 		 * get all objects on the timeline, and so you can use it in a class.
 		 * @param	inDisplayObj		timeline
 		 * 
-		 * @example		import nl.noiselibrary.utils.Dump;
+		 * @example		import nl.emceekaylibrary.utils.Dump;
 		 * 				Dump.output(this);
 		 * 
-		 * 				nl.noiselibrary.utils.Dump.output(this);
+		 * 				nl.emceekaylibrary.utils.Dump.output(this);
 		 * 
 		 */
 		public static function output ( inDisplayObj:Object) :void

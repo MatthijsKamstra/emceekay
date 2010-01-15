@@ -25,9 +25,9 @@ package nl.emceekaylibrary.core
 	import flash.system.Capabilities;
 	import flash.utils.getQualifiedClassName;
 	import net.hires.debug.Stats;
-	import nl.noiselibrary.utils.AlignUtil;
-	import nl.noiselibrary.utils.CacheBuster;
-	import nl.noiselibrary.utils.StageReference;
+	import nl.emceekaylibrary.utils.AlignUtil;
+	import nl.emceekaylibrary.utils.CacheBuster;
+	import nl.emceekaylibrary.utils.StageReference;
 
 	public class NoiseMain extends MovieClip
 	{
