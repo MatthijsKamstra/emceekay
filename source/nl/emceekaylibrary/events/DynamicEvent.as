@@ -9,7 +9,7 @@
 				import flash.display.MovieClip;
 				import flash.events.Event;
 				import flash.events.MouseEvent;
-				import nl.noiselibrary.events.DynamicEvent;
+				import nl.emceekaylibrary.events.DynamicEvent;
 				
 				public class MainDynamicEvent extends MovieClip
 				{

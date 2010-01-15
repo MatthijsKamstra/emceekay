@@ -7,7 +7,7 @@ onShowFinished
 onHideFinished
 
 
-nl.noiselibrary.core.LocalController
+nl.emceekaylibrary.core.LocalController
 
 */
 package nl.emceekaylibrary.core 

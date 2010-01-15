@@ -20,7 +20,7 @@ package nl.emceekaylibrary.utils {
 	
 	import flash.events.Event;
 	//import org.asaplibrary.util.FramePulse;
-	import nl.noiselibrary.utils.FramePulse;
+	import nl.emceekaylibrary.utils.FramePulse;
 	
 	/**
 	Delay a function call with one or more frames. Use this when initializing a SWF or a bunch of DisplayObjects, to enable the player to do its thing.	Usually a single frame delay will do the job, since the next enterFrame will come when all other jobs are finished.

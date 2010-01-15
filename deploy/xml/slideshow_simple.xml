@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  escape character
+  < __ &lt;
+  > __ &gt;
+  & __ &amp;
+  ' __ &apos;
+  " __ &quot;
+
+Gekke tekens tekst:
+éëèêáäãâöõóôüúùûïíìîÉËÈÊÁÄÃÂÖÕÓÔÜÚÙÛÏÍÌÎàáâãäçèéêëìíîïñòóôõöùúûüéèùûàêçÇî
+(als bovenstaande tekst veranderd in vierkantjes is deze file geen UTF-8 meer!! >> en dat moet het wel zijn!!)
+
+  tab (\t) __ &#09;
+  line feed (\n) __ &#10;
+  carriage return (\r) __ &#13;
+
+  <![CDATA[ ... ]]>
+-->
+<!--
+<b> tag to create <b>bold</b> text.
+<i> tag to create <i>italic</i> text.
+<u> tag to create <u>underlined</a> text.
+<a> tag to create <a href='http://www.adobe.com'>links to other sites</a>.
+<br> tag to create<br>new lines of text<br>whenever you want.
+
+with <a> tag to create <a href='http://www.adobe.com' target="_blank">links to other sites</a> but in a new window.
+-->
+<!-- ::: extra param :::
+slideshowspeed = '10' 	// 10 seconds per slide
+bgcolor="#ff3333" 	// the color behind the photo (background color) is red .... "ff3333" is also accepted, no color defined means '313131' (default) will be used
+fullsceen="true"		// means fullscreen (100% screen), fullsceen not defined (or false) means real size of image (in pixels) 
+-->
+<data slideshowspeed='10'>
+	<item url="img/27_superficial_graffiti_wallpaper_full.jpg" bgcolor="#ff3333" fullsceen="true"><![CDATA[plaatje 4]]></item>
+	<item url="img/20_graffiti_drown_sm.JPG" bgcolor="#ff3333" fullsceen="true" ><![CDATA[plaatje 1]]></item>
+	<item url="img/21_graffiti_flood_sm.JPG" bgcolor="#ff3333" fullsceen="true" ><![CDATA[plaatje 2]]></item>
+	<item url="img/22_remove_graffiti_sm.jpg" bgcolor="#ff3333" fullsceen="true"><![CDATA[plaatje 3]]></item>
+	<item url="img/phoenix_staand.jpg" bgcolor="#ff3333" fullsceen="true"><![CDATA[plaatje 4]]></item>
+	<item url="img/Robot_by_Scarecrovv.jpg" bgcolor="#ff3333" fullsceen="true"><![CDATA[plaatje 5]]></item>
+	<item url="img/The_Farmbot_by_AndreeWallin.jpg" bgcolor="#ff3333" fullsceen="true"><![CDATA[plaatje 6]]></item>
+</data>
